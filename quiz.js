@@ -6,6 +6,6 @@ function checkAnswer(){
         feedback.textContent = "Correct! Well done.";
     }
     elif(userAnswer !== correctAnswer){
-        feeedback.textContent = "That's incorrect. Try again!";
-    }
+        feedback.textContent = "That's incorrect. Try again!";
+    };
 };
